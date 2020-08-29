@@ -1,0 +1,25 @@
+{
+  "name": "beehive-bot",
+  "version": "1.0.0",
+  "description": "twitter bot of bees",
+  "main": "bee.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vv02/beehive_bot.git"
+  },
+  "author": "Veronica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vv02/beehive_bot/issues"
+  },
+  "homepage": "https://github.com/vv02/beehive_bot#readme",
+  "keywords": [
+    "bees"
+  ],
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
