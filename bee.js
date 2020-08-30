@@ -6,11 +6,9 @@ const fs = require( 'fs' ),
 
 const T = new Twit(config);
 
-// every 7.5 - 15hrs
 
-setInterval(tweetIt, 
-    
-    (Math.floor(Math.random() * (10 - 5 + 1)) + 5) * 15000 * 60 * 6);
+// every 10 hrs
+setInterval(tweetIt, 36000000);
 
 
 
